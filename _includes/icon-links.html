@@ -1,0 +1,19 @@
+{% if site.resume_social_links %}
+<ul class="social-icons">
+
+  <!-- GitHub link -->
+  {% if site.resume_social_links.resume_github_url %}
+  <li class="social-icons-item">
+    <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link"><i class="fa fa-github"></i></a>
+  </li>
+  {% endif %}
+
+    <!-- LinkedIn link -->
+  {% if site.resume_social_links.resume_linkedin_url %}
+  <li class="social-icons-item">
+  	<a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link"><i class="fa fa-linkedin-square"></i></a>
+  </li>
+  {% endif %}
+
+</ul>
+{% endif %}

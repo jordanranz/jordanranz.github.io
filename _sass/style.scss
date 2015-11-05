@@ -1,0 +1,22 @@
+/* Page SASS */
+
+
+/* Header */
+
+.social-icons {
+	list-style: none;
+	font-size: 35px;
+}
+
+.social-icons-item {
+	display: inline-block;
+}
+
+.icon-link {
+	&:hover {
+      color: #ccc;
+      @include transition(all .2s ease);
+    }
+}
+
+/* Experience */

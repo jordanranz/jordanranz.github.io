@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Roboto', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -28,7 +28,7 @@ $on-laptop:        800px;
 
 // Using media queries with like this:
 // @include media-query($palm) {
-//     .wrapper {
+//     .wrapper {	
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
@@ -40,10 +40,14 @@ $on-laptop:        800px;
 }
 
 
+@import "mixins";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "style",
+        "util"
 ;
+
+
