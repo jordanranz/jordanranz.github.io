@@ -61,6 +61,14 @@
 	font-size: 1em;
 }
 
+.entry-date {
+	float: right;
+	@media only screen and (max-device-width: 480px) {
+		float: none;
+		display: block;
+	}
+}
+
 /* Footer */
 .page-footer {
 	border-top: 4px solid #ccc;
