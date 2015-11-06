@@ -18,28 +18,6 @@
 	margin-bottom: 20px;
 }
 
-.social-icons {
-	list-style: none;
-	font-size: 35px;
-}
-
-.social-icons-item {
-	display: inline-block;
-}
-
-.icon-link {
-	color: #529CFF;
-
-	&:visited {
-		color: #529CFF;
-	}
-	
-	&:hover {
-      color: #5C5C5C;
-      @include transition(all .2s ease);
-    }
-}
-
 /* Section */
 .section-header {
 	font-weight: 800;
@@ -83,10 +61,6 @@
 	font-size: 1em;
 }
 
-.entry-body {
-
-}
-
 /* Footer */
 .page-footer {
 	border-top: 4px solid #ccc;
@@ -100,9 +74,37 @@
 	display: inline-block;
 	text-align: center;
 	font-weight: 100;
+	font-size: 1em;
+	width: 140px;
 
 	&:hover {
 		background-color: #5C5C5C;
 		@include transition(all .2s ease);
 	}
+}
+
+.social-icons {
+	list-style: none;
+	font-size: 35px;
+}
+
+.social-icons-item {
+	display: inline-block;
+}
+
+.social-icons-item i {
+	vertical-align: top;
+}
+
+.icon-link {
+	color: #529CFF;
+
+	&:visited {
+		color: #529CFF;
+	}
+	
+	&:hover {
+      color: #5C5C5C;
+      @include transition(all .2s ease);
+    }
 }
