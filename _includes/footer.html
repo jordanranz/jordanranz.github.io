@@ -1,7 +1,11 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-  	
-  </div>
-
+<footer class="page-footer">
+  	{% if site.resume_looking_for_work == 'yes' %}
+	<a href="mailto:{{ site.resume_contact_email }}" class="btn btn-primary btn-lg contact-button">Contact me</a>
+	{% elsif site.resume_looking_for_work == 'no' %}
+	<a class="contact-button not-looking">I'm not looking for work right now.</a>
+	{% else %}
+	{% endif %}
+	<div class="u-right">
+		{% include icon-links.html %}
+	</div>
 </footer>

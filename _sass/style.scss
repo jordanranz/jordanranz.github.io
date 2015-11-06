@@ -1,7 +1,17 @@
 /* Page SASS */
 
-
 /* Header */
+
+.resume-header {
+	margin: 40px 0 20px;
+	padding-bottom: 10px;
+}
+
+.header-name {
+	font-size: 2.7em;
+	font-weight: 800;
+	letter-spacing: -.05em;
+}
 
 .social-icons {
 	list-style: none;
@@ -13,10 +23,80 @@
 }
 
 .icon-link {
+	color: #529CFF;
+
+	&:visited {
+		color: #529CFF;
+	}
+	
 	&:hover {
-      color: #ccc;
+      color: #5C5C5C;
       @include transition(all .2s ease);
     }
 }
 
-/* Experience */
+/* Section */
+.section-header {
+	font-weight: 800;
+	letter-spacing: -.05em;
+	font-size: 1.75em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+.content-section {
+	border-top: 4px solid #ccc;
+	padding: 10px 0;
+}
+
+.content-entry {
+	margin-bottom: 2em;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	a:hover {
+		color: #529CFF;
+	}
+}
+
+.entry-header {
+	font-weight: 700;
+	font-size: 1.25em;
+	margin: 0 0 5px;
+	
+}
+
+.entry-date {
+	display: inline-block;
+}
+
+.entry-subheader {
+	display: inline-block;
+	font-weight: 400;
+}
+
+.entry-body {
+
+}
+
+/* Footer */
+.page-footer {
+	border-top: 4px solid #ccc;
+	padding-top: 1em;
+}
+
+.contact-button {
+	background-color: #529CFF;
+	border: 0;
+	border-radius: 4px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 100;
+
+	&:hover {
+		background-color: #5C5C5C;
+		@include transition(all .2s ease);
+	}
+}

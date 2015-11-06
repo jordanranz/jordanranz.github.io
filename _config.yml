@@ -9,9 +9,9 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "false"
+resume_avatar:                  "true"
 resume_name:                    "Jordan Ranz"
-resume_title:                   "Full Stack Software Engineer"
+resume_title:                   "Software Engineer"
 resume_contact_email: 			"jordanmranz@gmail.com"
 
 resume_looking_for_work:        "yes"
